@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVENGERS: DOOMSDAY</title>
+    <meta
+      name="description"
+      content="AVENGERS: DOOMSDAY — When Hope Falls, Heroes Rise."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand" aria-label="Avengers logo">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">AVENGERS</span>
+        </div>
+        <div class="nav-links">
+          <a href="#heroes">Heroes</a>
+          <a href="#doom">Doom</a>
+          <a href="#battle">Battle</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#gallery">Gallery</a>
+        </div>
+        <button class="nav-button">Watch Trailer</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-glow"></div>
+        <div class="container hero-content">
+          <div class="hero-copy" data-aos="fade-right">
+            <p class="eyebrow">Marvel Studios • 2026 Event</p>
+            <h1>AVENGERS: DOOMSDAY</h1>
+            <p class="subtitle">“When Hope Falls, Heroes Rise.”</p>
+            <div class="hero-actions">
+              <button class="primary-btn">Watch Trailer</button>
+              <button class="secondary-btn">Join The Avengers</button>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <strong data-count="12">0</strong>
+                <span>Worlds at Risk</span>
+              </div>
+              <div>
+                <strong data-count="7">0</strong>
+                <span>Heroes United</span>
+              </div>
+              <div>
+                <strong data-count="1">0</strong>
+                <span>Final Stand</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" data-aos="fade-left">
+            <div class="doom-figure">
+              <div class="doom-helmet"></div>
+              <div class="doom-core"></div>
+              <div class="doom-runes">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="heroes" class="showcase section-spacing">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">The Ultimate Alliance</p>
+            <h2>Superhero Showcase</h2>
+          </div>
+          <div id="heroGrid" class="hero-grid"></div>
+        </div>
+      </section>
+
+      <section id="doom" class="doom-section section-spacing">
+        <div class="container doom-layout">
+          <div class="doom-copy" data-aos="fade-right">
+            <p class="eyebrow">The Architect of Ruin</p>
+            <h2>Doctor Doom</h2>
+            <p>
+              From the shadowed courts of Latveria to the edge of the multiverse,
+              Victor von Doom has risen as the master manipulator of destiny.
+              Armed with genius-level intellect, cosmic power, and absolute will,
+              he bends reality itself into a weapon against the heroes of Earth.
+            </p>
+            <div class="doom-meta">
+              <div>
+                <span>Threat Level</span>
+                <strong>OMEGA</strong>
+              </div>
+              <div>
+                <span>Power Core</span>
+                <strong>Reality Forge</strong>
+              </div>
+            </div>
+            <div class="countdown-wrap">
+              <h3>Countdown to Doomsday</h3>
+              <div class="countdown" id="countdown">
+                <div><span id="days">00</span><label>Days</label></div>
+                <div><span id="hours">00</span><label>Hours</label></div>
+                <div><span id="minutes">00</span><label>Minutes</label></div>
+                <div><span id="seconds">00</span><label>Seconds</label></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="doom-visual" data-aos="fade-left">
+            <div class="doom-banner">
+              <div class="doom-orb"></div>
+              <div class="doom-sigil"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="battle" class="battle section-spacing">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Final Stand</p>
+            <h2>Battle Arena</h2>
+          </div>
+
+          <div class="battle-scene" data-aos="zoom-in">
+            <div class="side side-avengers">
+              <h3>Avengers Team</h3>
+              <div class="team-icons">
+                <span>⚡</span>
+                <span>🛡️</span>
+                <span>🔥</span>
+                <span>🌩️</span>
+                <span>🕷️</span>
+              </div>
+            </div>
+            <div class="arena-center">
+              <div class="beam beam-left"></div>
+              <div class="beam beam-right"></div>
+              <div class="energy-core"></div>
+            </div>
+            <div class="side side-doom">
+              <h3>Doctor Doom Army</h3>
+              <div class="team-icons">
+                <span>🧠</span>
+                <span>🛠️</span>
+                <span>☠️</span>
+                <span>⚙️</span>
+                <span>💥</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="timeline section-spacing">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Chronicle of Ruin</p>
+            <h2>Movie Timeline</h2>
+          </div>
+
+          <div class="timeline-grid">
+            <div class="timeline-item" data-aos="fade-up">
+              <span>01</span>
+              <h3>Origin of Doctor Doom</h3>
+              <p>The forbidden genius of Latveria embraces power and severs hope from destiny.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <span>02</span>
+              <h3>Multiverse Collapse</h3>
+              <p>Reality fractures, and every world begins to bend under a singular cosmic shadow.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+              <span>03</span>
+              <h3>Rise of the Avengers</h3>
+              <p>Heroes from every frontier unite under one impossible mission to restore balance.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+              <span>04</span>
+              <h3>Final Battle</h3>
+              <p>Earth’s greatest champions engage the master strategist at the heart of the abyss.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+              <span>05</span>
+              <h3>The Doomsday Event</h3>
+              <p>The last stand where hope is tested, alliances break, and legends are reborn.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="powers section-spacing">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Power Analysis</p>
+            <h2>Powers Comparison</h2>
+          </div>
+
+          <div class="chart-wrap" data-aos="fade-up">
+            <div class="chart-box">
+              <div class="chart-row">
+                <label>Strength</label>
+                <div class="bar"><span data-level="96"></span></div>
+                <strong>96</strong>
+              </div>
+              <div class="chart-row">
+                <label>Intelligence</label>
+                <div class="bar"><span data-level="99"></span></div>
+                <strong>99</strong>
+              </div>
+              <div class="chart-row">
+                <label>Speed</label>
+                <div class="bar"><span data-level="88"></span></div>
+                <strong>88</strong>
+              </div>
+              <div class="chart-row">
+                <label>Magic</label>
+                <div class="bar"><span data-level="91"></span></div>
+                <strong>91</strong>
+              </div>
+              <div class="chart-row">
+                <label>Combat Skills</label>
+                <div class="bar"><span data-level="94"></span></div>
+                <strong>94</strong>
+              </div>
+              <div class="chart-row">
+                <label>Leadership</label>
+                <div class="bar"><span data-level="90"></span></div>
+                <strong>90</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery section-spacing">
+        <div class="container">
+          <div class="section-heading" data-aos="fade-up">
+            <p class="eyebrow">Multiverse Archive</p>
+            <h2>Gallery</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item" data-aos="zoom-in"><img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" alt="Battle scene" /></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="50"><img src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?auto=format&fit=crop&w=900&q=80" alt="Cinematic poster" /></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100"><img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80" alt="Hero wallpaper" /></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150"><img src="https://images.unsplash.com/photo-1526481280695-3c4691d8d90a?auto=format&fit=crop&w=900&q=80" alt="Action scene" /></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200"><img src="https://images.unsplash.com/photo-1529516346306-9a7d7d0d3b4c?auto=format&fit=crop&w=900&q=80" alt="Avengers squad" /></div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80" alt="Battlefield" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trailer section-spacing">
+        <div class="container trailer-box" data-aos="fade-up">
+          <div class="trailer-copy">
+            <p class="eyebrow">Official Trailer</p>
+            <h2>Watch the Cinematic Preview</h2>
+            <p>
+              The final hour is here. An army of shields, thunder, and cosmic power rises against the cold certainty of doom.
+            </p>
+          </div>
+          <div class="video-frame">
+            <button class="play-btn" aria-label="Play trailer">▶</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="brand footer-brand">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">AVENGERS</span>
+        </div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="X">X</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Avengers: Doomsday. All rights reserved.</div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close image">×</button>
+      <img src="" alt="Expanded gallery item" />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
